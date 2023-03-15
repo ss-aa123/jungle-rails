@@ -3,3 +3,4 @@ class AddEmailToOrders < ActiveRecord::Migration[6.1]
     add_column :orders, :email, :string
   end
 end
+ 
